@@ -1,11 +1,14 @@
 require 'spec_helper'
 
 describe "Cancel Registration", js: true do
-  let!(:user) { User.create(email: email, password: password, password_confirmation: password) }
-  let(:email) { 'jill@example.com' }
-  let(:password) { 'password' }
+  let(:email) { 'bill@example.com' }
+  let(:password) { 'password2' }
 
   before do
+    # Sign up
+
+    # Sign out
+
     # Sign in
 
     # Cancel registration
